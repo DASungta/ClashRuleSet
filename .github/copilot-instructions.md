@@ -37,7 +37,7 @@ ClashRuleSet is a curated collection of domain/IP filtering rules for **Clash** 
 
 **Specialization**:
 
-- AI-focused: `AiDomain.list` (US nodes), `CiciAi.list` (Singapore), `Perplexity.list`
+- AI-focused: `Claude.list` (independent Claude routing), `AiDomain.list` (other US AI services), `CiciAi.list` (Singapore), `Perplexity.list`
 - ByteDance: `ByteDance.list`
 - Web3: `Web3.list`, `Crypto.list`
 - Education: `Khan.list`, `Edutools.list`
@@ -57,6 +57,7 @@ custom_proxy_group=🇺🇲 美区AI`select`[]🇺🇲 美国节点`[]🇸🇬 �
 - First `[]` = primary node
 - Last `.*` = regex fallback for all other nodes
 - Nodes sourced from subscription provider
+- Claude uses a separate `🟠 Claude` group with the same US-first fallback chain.
 
 **Region-to-Service Mapping**:
 

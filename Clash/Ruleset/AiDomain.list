@@ -2,7 +2,7 @@
 
 DOMAIN-SUFFIX,cerebras.ai
 
-# 内容：OpenAi,claude,recraft,poe,bing,gemini,perplexity
+# 内容：OpenAI,recraft,poe,bing,gemini,perplexity
 
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,chatgpt
@@ -25,19 +25,6 @@ DOMAIN-SUFFIX,a.nel.cloudflare.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,ab.chatgpt.com
-
-#claude
-DOMAIN-KEYWORD,anthropic
-PROCESS-NAME,Claude
-PROCESS-NAME,Claude Helper
-PROCESS-NAME,Claude Helper (Renderer)
-DOMAIN-KEYWORD,claude
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,usefathom.com
-DOMAIN-SUFFIX,console.anthropic.com
-DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,claudeusercontent.com
 
 #recraft
 DOMAIN-SUFFIX,recraft.ai
