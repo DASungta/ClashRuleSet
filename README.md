@@ -13,6 +13,10 @@
 | 🔒 Web3      | 建议使用自建的安全节点，避免出现安全风险                                              |
 | 🫙 自定义    | 放自建节点，搭配上方分流规则使用                                                      |
 
+> **为什么将 `*.proton.me` 和 `*.protonweb.com` 加入 Claude 分组？**
+>
+> 当前使用 Proton Mail 接收 Claude 邮件。为降低打开邮件时因追踪器导致 IP 或 DNS 出口不一致的风险，`proton.me`、`protonweb.com` 及其所有子域名与 Claude、Anthropic 服务使用同一代理分组，确保查看 Claude 邮件时的 IP 和 DNS 出口与访问 Claude 时保持一致。
+
 其他分流规则，包括 哔哩哔哩,Khan,海外媒体,Spotify,Netflix, YouTube, DisneyPlus, 游戏平台等常用规则。
 
 ## 重要提醒
@@ -42,6 +46,6 @@ Hysteria2 协议本身确实是用 UDP 发包给服务器的（这是底层的�
 
 在订阅的 URL 上增加 config=[替换成下面 ini,或自定义]
 
-[https://raw.githubusercontent.com/szkane/ClashRuleSet/main/Clash/kclash.ini](https://raw.githubusercontent.com/szkane/ClashRuleSet/main/Clash/kclash.ini)
+[https://raw.githubusercontent.com/DASungta/ClashRuleSet/main/Clash/kclash.ini](https://raw.githubusercontent.com/DASungta/ClashRuleSet/main/Clash/kclash.ini)
 
-订阅地址后面增加：`&config=https%3A%2F%2Fraw.githubusercontent.com%2Fszkane%2FClashRuleSet%2Frefs%2Fheads%2Fmain%2FClash%2Fkclash.ini`
+订阅地址后面增加：`&config=https%3A%2F%2Fraw.githubusercontent.com%2FDASungta%2FClashRuleSet%2Frefs%2Fheads%2Fmain%2FClash%2Fkclash.ini`
