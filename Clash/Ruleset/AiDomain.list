@@ -36,12 +36,6 @@ DOMAIN-SUFFIX,poe.com
 PROCESS-NAME,LM Studio
 DOMAIN-SUFFIX,lmsudio.ai
 
-#grok
-PROCESS-NAME,grok
-DOMAIN-KEYWORD,grok
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,grok.com
-
 #perplexity.ai
 DOMAIN-SUFFIX,perplexity.ai
 
