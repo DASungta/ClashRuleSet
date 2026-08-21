@@ -1,6 +1,7 @@
 # 3rd part AI router
 
 DOMAIN-SUFFIX,cerebras.ai
+DOMAIN-SUFFIX,b.ai
 
 # 内容：OpenAI,recraft,poe,bing,gemini,perplexity
 
