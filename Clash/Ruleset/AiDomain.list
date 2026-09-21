@@ -77,8 +77,6 @@ DOMAIN-SUFFIX,cdn.syndication.twimg.com
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
 DOMAIN-SUFFIX,bingstatic.com
 DOMAIN-SUFFIX,yahoo.co.jp
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,r.msftstatic.com
 DOMAIN-SUFFIX,rafd.bing.com
 DOMAIN-SUFFIX,rafd.staging-bing-int.com
@@ -138,7 +136,6 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,clients6.google.com
 
 # 内容：Google
-# 数量：24条
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,1e100.net
@@ -154,14 +151,8 @@ DOMAIN-SUFFIX,gstatic.cn
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
 DOMAIN-KEYWORD,goog
