@@ -1,5 +1,8 @@
+# 同步快照：2026-10-14；规则总数：84
+# 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/Steam/Steam.list
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/steam.list
+
 # 内容：Steam
-# 数量：18条
 DOMAIN,steambroadcast.akamaized.net
 DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,steampipe.akamaized.net
@@ -18,3 +21,71 @@ DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,underlords.com
 DOMAIN-SUFFIX,valvesoftware.com
+
+# 上游增补（已按本仓库分组排除冲突）
+DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
+DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
+DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
+DOMAIN-SUFFIX,csgo.wmsj.cn
+DOMAIN-SUFFIX,dl.steam.clngaa.com
+DOMAIN-SUFFIX,dl.steam.ksyna.com
+DOMAIN-SUFFIX,dota2.wmsj.cn
+DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
+DOMAIN-SUFFIX,f3b7q2p3.ssl.hwcdn.net
+DOMAIN-SUFFIX,s.team
+DOMAIN-SUFFIX,st.dl.bscstorage.net
+DOMAIN-SUFFIX,st.dl.eccdnx.com
+DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+DOMAIN-SUFFIX,steam-api.com
+DOMAIN-SUFFIX,steam.apac.qtlglb.com
+DOMAIN-SUFFIX,steam.cdn.on.net
+DOMAIN-SUFFIX,steam.cdn.orcon.net.nz
+DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz
+DOMAIN-SUFFIX,steam.cdn.webra.ru
+DOMAIN-SUFFIX,steam.eca.qtlglb.com
+DOMAIN-SUFFIX,steam.naeu.qtlglb.com
+DOMAIN-SUFFIX,steam.ru.qtlglb.com
+DOMAIN-SUFFIX,steam.tv
+DOMAIN-SUFFIX,steambroadcast.akamaized.net
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+DOMAIN-SUFFIX,steamcontent.tnkjmec.com
+DOMAIN-SUFFIX,steamdeck.com
+DOMAIN-SUFFIX,steammobile.akamaized.net
+DOMAIN-SUFFIX,steampipe-kr.akamaized.net
+DOMAIN-SUFFIX,steampipe-partner.akamaized.net
+DOMAIN-SUFFIX,steampipe.akamaized.net
+DOMAIN-SUFFIX,steampowered.com.8686c.com
+DOMAIN-SUFFIX,steamstatic.com.8686c.com
+DOMAIN-SUFFIX,steamstore-a.akamaihd.net
+DOMAIN-SUFFIX,steamunlocked.net
+DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
+DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
+DOMAIN-SUFFIX,wmsjsteam.com
+DOMAIN-KEYWORD,steambroadcast
+DOMAIN-KEYWORD,steamstore
+DOMAIN-KEYWORD,steamuserimages
+DOMAIN,steamcommunity-a.akamaihd.net.edgesuite.net
+DOMAIN,a4e8s8k3.map2.ssl.hwcdn.net
+DOMAIN,f3b7q2p3.ssl.hwcdn.net
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steammobile.akamaized.net
+DOMAIN,steampipe-kr.akamaized.net
+DOMAIN,steampipe-partner.akamaized.net
+DOMAIN,steamvideo-a.akamaihd.net
+DOMAIN,steamcloudsweden.blob.core.windows.net
+DOMAIN,steamugcquincy.blob.core.windows.net
+DOMAIN-SUFFIX,steamconnecttest.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,valve.net
+DOMAIN-SUFFIX,dota2.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,csgo.com.cn
+DOMAIN-SUFFIX,dota2.com.cn
+DOMAIN-SUFFIX,client-update.queniuqe.com
+DOMAIN,alibaba.cdn.steampipe.steamcontent.com
+DOMAIN,lv.queniujq.cn
+DOMAIN,xz.pphimalayanrt.com
+DOMAIN-SUFFIX,steamchina.com
+DOMAIN-SUFFIX,gstore.val.manlaxy.com

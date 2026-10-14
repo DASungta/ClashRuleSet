@@ -1,3 +1,6 @@
+# 同步快照：2026-10-14；规则总数：47
+# 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/Download/Download.list
+
 # Mac Download
 PROCESS-NAME,夸克网盘 Helper
 PROCESS-NAME,BaiduNetdisk
@@ -34,3 +37,26 @@ URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
 PROCESS-NAME,Weiyun.exe
 #Baidu disk
 PROCESS-NAME,baidunetdisk.exe
+
+# 上游增补（已按本仓库分组排除冲突）
+DOMAIN-SUFFIX,qbittorrent.org
+DOMAIN-KEYWORD,thunder
+DOMAIN-KEYWORD,xlliveud
+DOMAIN-KEYWORD,xunlei
+DOMAIN-KEYWORD,yunpan
+PROCESS-NAME,BitComet
+PROCESS-NAME,BitComet.exe
+PROCESS-NAME,BitComet_x64.exe
+PROCESS-NAME,DownloadService
+PROCESS-NAME,Folx
+PROCESS-NAME,NetTransport
+PROCESS-NAME,Thunder
+PROCESS-NAME,Transmission
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WebTorrentHelper
+PROCESS-NAME,WebTorrentHelper.exe
+PROCESS-NAME,Weiyun
+PROCESS-NAME,aria2c
+PROCESS-NAME,fdm
+PROCESS-NAME,qbittorrent
+PROCESS-NAME,uTorrent

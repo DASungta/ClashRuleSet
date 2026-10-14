@@ -1,3 +1,8 @@
+# 同步快照：2026-10-14；规则总数：50
+# 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/OpenAI/OpenAI.list
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/openai.list
+# 来源：https://raw.githubusercontent.com/v2fly/domain-list-community/c6adacf29cc4fb05e04651fcf03e00989ef9f797/data/openai
+
 # OpenAI / ChatGPT / Sora 及原有登录、验证、静态资源依赖
 # 部分第三方依赖为共享域名，也会使用此分组。
 DOMAIN-KEYWORD,openai
@@ -21,3 +26,34 @@ DOMAIN-SUFFIX,a.nel.cloudflare.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,ab.chatgpt.com
+
+# 上游增补（已按本仓库分组排除冲突）
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaiassets.blob.core.windows.net
+DOMAIN,openaicom.imgix.net
+DOMAIN-SUFFIX,chatgpt.site
+DOMAIN-SUFFIX,crixet.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,openai.qualtrics.com
+DOMAIN-KEYWORD,chatgpt-async-webps-prod-

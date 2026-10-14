@@ -1,3 +1,8 @@
+# 同步快照：2026-10-14；规则总数：14
+# 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/Duolingo/Duolingo.list
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/duolingo.list
+# 来源：https://raw.githubusercontent.com/v2fly/domain-list-community/c6adacf29cc4fb05e04651fcf03e00989ef9f797/data/duolingo
+
 # DOMAIN-KEYWORD
 DOMAIN-KEYWORD,seesaw
 DOMAIN-KEYWORD,getepic
@@ -11,3 +16,9 @@ DOMAIN-SUFFIX,z-library.co
 DOMAIN-SUFFIX,duolingo.com
 DOMAIN-SUFFIX,vooks.com
 DOMAIN-SUFFIX,synthesis.com
+
+# 上游增补（已按本仓库分组排除冲突）
+DOMAIN-SUFFIX,duolingo.cn
+DOMAIN-SUFFIX,ads-api.duolingo.com
+DOMAIN-SUFFIX,analytics.vpc.duolingo.com
+DOMAIN-SUFFIX,metrics.duolingo.com

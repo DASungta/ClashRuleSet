@@ -1,7 +1,12 @@
+# 同步快照：2026-10-14；规则总数：55
+# 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/BBC/BBC.list
+# 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/UKMedia/UKMedia.list
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/bbc.list
+
 DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,co.uk
 
-# BBCiPlayer  
+# BBCiPlayer
 USER-AGENT,BBCiPlayer*
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
@@ -24,3 +29,38 @@ DOMAIN-SUFFIX,emp.bbci.co.uk
 DOMAIN-SUFFIX,uk-script.dotmetrics.net
 DOMAIN-SUFFIX,rm-script.dotmetrics.net
 DOMAIN-SUFFIX,dotmetrics.net
+
+# 上游增补（已按本仓库分组排除冲突）
+DOMAIN,as-dash-uk-live.akamaized.net
+DOMAIN,as-hls-uk-live.akamaized.net
+DOMAIN,vod-dash-ww-live.akamaized.net
+DOMAIN,vod-hls-uk-live.akamaized.net
+DOMAIN,vod-sub-uk-live.akamaized.net
+DOMAIN,vod-thumb-ww-live.akamaized.net
+DOMAIN,vs-cmaf-push-uk-live.akamaized.net
+DOMAIN-SUFFIX,bbc
+DOMAIN-SUFFIX,bbc.in
+DOMAIN-SUFFIX,bbcchinese.com
+DOMAIN-SUFFIX,bbcfmt.s.llnwi.net
+DOMAIN-SUFFIX,bbcmedia.co.uk
+DOMAIN-SUFFIX,bbcpersian.com
+DOMAIN-SUFFIX,bbcverticals.com
+DOMAIN,itvpnp.live.ott.irdeto.com
+DOMAIN,itvpnp.stage.ott.irdeto.com
+DOMAIN,itvpnpmobile-a.akamaihd.net
+DOMAIN,vs-cmaf-pushb-ww-live.akamaized.net
+DOMAIN-SUFFIX,bb-static.com
+DOMAIN-SUFFIX,bbc-reporting-api.app
+DOMAIN-SUFFIX,britbox.co.uk
+DOMAIN-SUFFIX,britbox.com
+DOMAIN-SUFFIX,c4assets.com
+DOMAIN-SUFFIX,channel4.com
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,itvstatic.com
+DOMAIN-SUFFIX,massive-itv.com
+DOMAIN,aod-pod-uk-live.akamaized.net
+DOMAIN,ve-dash-uk-live.akamaized.net
+DOMAIN,ve-uhd-push-uk-live.akamaized.net
+DOMAIN,vs-hls-push-uk-live.akamaized.net
+DOMAIN,vs-hls-pushb-uk-live.akamaized.net
+DOMAIN-SUFFIX,bbc.mp-pxcdn.com

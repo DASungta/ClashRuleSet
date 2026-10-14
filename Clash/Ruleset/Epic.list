@@ -1,7 +1,38 @@
+# 同步快照：2026-10-14；规则总数：31
+# 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/Epic/Epic.list
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/epicgames.list
+
 # 内容：Epic
-# 数量：5条
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,epicgames.dev
 DOMAIN-SUFFIX,helpshift.com
 DOMAIN-SUFFIX,paragon.com
 DOMAIN-SUFFIX,unrealengine.com
+
+# 上游增补（已按本仓库分组排除冲突）
+DOMAIN-SUFFIX,battlebreakers.com
+DOMAIN-SUFFIX,eac-cdn.com
+DOMAIN-SUFFIX,easy.ac
+DOMAIN-SUFFIX,easyanticheat.net
+DOMAIN-SUFFIX,fortnite.com
+DOMAIN-SUFFIX,playparagon.com
+DOMAIN-SUFFIX,roborecall.com
+DOMAIN-SUFFIX,shadowcomplex.com
+DOMAIN-SUFFIX,spyjinx.com
+DOMAIN-SUFFIX,unrealtournament.com
+DOMAIN-SUFFIX,cubicmotion.com
+DOMAIN-SUFFIX,epicgamescdn.com
+DOMAIN-SUFFIX,fab.com
+DOMAIN-SUFFIX,hyprsense.com
+DOMAIN-SUFFIX,capturingreality.com
+DOMAIN-SUFFIX,3lateral.com
+DOMAIN-SUFFIX,radgametools.com
+DOMAIN-SUFFIX,realityscan.com
+DOMAIN-SUFFIX,quixel.com
+DOMAIN-SUFFIX,sketchfab.com
+DOMAIN-SUFFIX,quixel.se
+DOMAIN-SUFFIX,twinmotion.com
+DOMAIN-SUFFIX,artstationmedia.com
+DOMAIN-SUFFIX,artstation.com
+DOMAIN-SUFFIX,fortnite-vod.akamaized.net
+DOMAIN-SUFFIX,egdownload.fastly-edge.com

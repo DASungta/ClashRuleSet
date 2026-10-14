@@ -9,7 +9,9 @@
 | 🟠 Claude    | Claude 与 Anthropic 服务，可独立选择代理节点                                           |
 | 🤖 Grok      | Grok 与 xAI 服务，可独立选择代理节点                                                   |
 | 🧠 OpenAI   | OpenAI、ChatGPT、Sora 及相关依赖，可独立选择代理节点                                 |
-| 🇺🇲 美区AI    | 需美国节点的其他 AI 服务，Perplexity、Google 服务与 Gemini 合并在此            |
+| 🇺🇲 美区AI    | 需美国节点的其他 AI 服务，包括 Perplexity、Bing / Copilot、Muse 等            |
+| 🔎 Google | Google、Gemini、Antigravity、Drive 等服务独立选择节点，默认美国节点；YouTube 保持独立 |
+| 🐦 X / Twitter | X、Twitter、短链及图片视频资源独立选择节点；Grok / xAI 保持独立 |
 | 🌈 CiciAI    | 建议使用新加坡节点，确保字节海外版的 APP 和 AI 服务可正常使用                         |
 | 👨‍💻 Developer | 建议使用流量大或免费节点，各种 docker 镜像、模型文件下载专用                          |
 | 🔒 Web3      | 建议使用自建的安全节点，避免出现安全风险                                              |
@@ -53,3 +55,7 @@ Hysteria2 协议本身确实是用 UDP 发包给服务器的（这是底层的�
 订阅地址后面增加：`&config=https%3A%2F%2Fraw.githubusercontent.com%2FDASungta%2FClashRuleSet%2Frefs%2Fheads%2Fmain%2FClash%2Fkclash.ini`
 
 更新订阅后，在 `🧠 OpenAI` 分组中选择所需节点。原 OpenAI 规则段中的共享登录、验证与监控域名也随该分组路由。
+
+分流顺序：X / Twitter 优先于 Grok 和美区AI；YouTube 优先于 Google；专用服务规则优先于通用代理规则。广告拦截与白名单仍优先匹配；X 官方嵌入组件 `syndication.twitter.com` 在应用净化前单独放行。
+
+2026-10-14 已按 V2Fly、MetaCubeX 和 blackmatrix7 的固定快照更新全部启用分组规则，来源、过滤范围及测试结果见[更新记录](docs/rule-refresh-2026-10-14.md)。

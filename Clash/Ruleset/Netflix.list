@@ -1,5 +1,8 @@
+# 同步快照：2026-10-14；规则总数：38
+# 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/Netflix/Netflix.list
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/netflix.list
+
 # 内容：Netflix
-# 数量：41条
 USER-AGENT,Argo*
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.apiproxy-
@@ -23,21 +26,20 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
-IP-CIDR,8.41.4.0/24,no-resolve
-IP-CIDR,23.246.0.0/18,no-resolve
-IP-CIDR,37.77.184.0/21,no-resolve
-IP-CIDR,38.72.126.0/24,no-resolve
-IP-CIDR,45.57.0.0/17,no-resolve
-IP-CIDR,64.120.128.0/17,no-resolve
-IP-CIDR,66.197.128.0/17,no-resolve
-IP-CIDR,69.53.224.0/19,no-resolve
-IP-CIDR,103.87.204.0/22,no-resolve
-IP-CIDR,108.175.32.0/20,no-resolve
-IP-CIDR,185.2.220.0/22,no-resolve
-IP-CIDR,185.9.188.0/22,no-resolve
-IP-CIDR,192.173.64.0/18,no-resolve
-IP-CIDR,198.38.96.0/19,no-resolve
-IP-CIDR,198.45.48.0/20,no-resolve
-IP-CIDR,203.75.84.0/24,no-resolve
-IP-CIDR,207.45.72.0/22,no-resolve
-IP-CIDR,208.75.76.0/22,no-resolve
+
+# 上游增补（已按本仓库分组排除冲突）
+DOMAIN,e13252.dscg.akamaiedge.net
+DOMAIN,h-netflix.online-metrix.net
+DOMAIN-SUFFIX,cookielaw.org
+DOMAIN-SUFFIX,flxvpn.net
+DOMAIN-SUFFIX,netflix.ca
+DOMAIN-SUFFIX,netflix.com.au
+DOMAIN-SUFFIX,netflix.com.edgesuite.net
+DOMAIN-SUFFIX,netflixdnstest10.com
+DOMAIN-SUFFIX,netflixinvestor.com
+DOMAIN-SUFFIX,netflixstudios.com
+DOMAIN-SUFFIX,netflixtechblog.com
+DOMAIN-SUFFIX,nflxsearch.net
+DOMAIN-SUFFIX,us-west-2.amazonaws.com
+DOMAIN-KEYWORD,dualstack.ichnaea-web-
+PROCESS-NAME,com.netflix.mediaclient

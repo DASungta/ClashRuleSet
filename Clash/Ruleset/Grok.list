@@ -1,5 +1,12 @@
+# 同步快照：2026-10-14；规则总数：5
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/xai.list
+# 来源：https://raw.githubusercontent.com/v2fly/domain-list-community/c6adacf29cc4fb05e04651fcf03e00989ef9f797/data/xai
+
 # Grok / xAI
 PROCESS-NAME,grok
 DOMAIN-KEYWORD,grok
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
+
+# 上游增补（已按本仓库分组排除冲突）
+DOMAIN-SUFFIX,grokipedia.com

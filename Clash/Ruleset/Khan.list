@@ -1,3 +1,7 @@
+# 同步快照：2026-10-14；规则总数：16
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/khanacademy.list
+# 来源：https://raw.githubusercontent.com/v2fly/domain-list-community/c6adacf29cc4fb05e04651fcf03e00989ef9f797/data/khanacademy
+
 # khanacademy
 DOMAIN-KEYWORD,khanacademy
 DOMAIN-KEYWORD,khanacademykids
@@ -7,8 +11,6 @@ DOMAIN-SUFFIX,kasandbox.org
 DOMAIN-SUFFIX,ka-cs-scratchpad-audio.s3.amazonaws.com
 DOMAIN-SUFFIX,khanacademy.zendesk.com
 DOMAIN-SUFFIX,d32qvxcu5urtof.cloudfront.net
-DOMAIN-SUFFIX,s3.amazonaws.com
-DOMAIN-SUFFIX,s3-accelerate.amazonaws.com
 DOMAIN-SUFFIX,3ea3hvfvpd.execute-api.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,www.khanacademykids.org
 DOMAIN-SUFFIX,khanacademykids.org

@@ -1,3 +1,6 @@
+# 同步快照：2026-10-14；规则总数：633
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/category-ads-all.list
+
 # 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
 
 # 广告关键词
@@ -546,7 +549,6 @@ DOMAIN-SUFFIX,rubiconproject.com
 DOMAIN-SUFFIX,sape.ru
 DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,segment.com
-DOMAIN-SUFFIX,serving-sys.com
 DOMAIN-SUFFIX,sharethis.com
 DOMAIN-SUFFIX,smaato.com
 DOMAIN-SUFFIX,smaato.net
@@ -600,3 +602,49 @@ DOMAIN-SUFFIX,114so.cn
 DOMAIN-SUFFIX,go.10086.cn
 DOMAIN-SUFFIX,hivedata.cc
 DOMAIN-SUFFIX,navi.gd.chinamobile.com
+
+# 上游增补（已按本仓库分组排除冲突）
+DOMAIN-SUFFIX,1rx.io
+DOMAIN-SUFFIX,7box.vip
+DOMAIN-SUFFIX,addthiscdn.com
+DOMAIN-SUFFIX,addthisedge.com
+DOMAIN-SUFFIX,adinplay.com
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,adjust.net.in
+DOMAIN-SUFFIX,adjust.world
+DOMAIN-SUFFIX,advertserve.com
+DOMAIN-SUFFIX,clearbit.com
+DOMAIN-SUFFIX,clearbitjs.com
+DOMAIN-SUFFIX,clearbitscripts.com
+DOMAIN-SUFFIX,contextual.media.net
+DOMAIN-SUFFIX,cpmstar.com
+DOMAIN-SUFFIX,datayi.cn
+DOMAIN-SUFFIX,getsentry.com
+DOMAIN-SUFFIX,gio.ren
+DOMAIN-SUFFIX,giocdn.com
+DOMAIN-SUFFIX,growin.cn
+DOMAIN-SUFFIX,growingio.cn
+DOMAIN-SUFFIX,httpool.com
+DOMAIN-SUFFIX,lijit.com
+DOMAIN-SUFFIX,mfadsrvr.com
+DOMAIN-SUFFIX,ns1p.net
+DOMAIN-SUFFIX,ogury.co
+DOMAIN-SUFFIX,ogury.com
+DOMAIN-SUFFIX,openx.net
+DOMAIN-SUFFIX,openxadexchange.com
+DOMAIN-SUFFIX,openxcdn.net
+DOMAIN-SUFFIX,openxenterprise.com
+DOMAIN-SUFFIX,openxmarket.asia
+DOMAIN-SUFFIX,presage.io
+DOMAIN-SUFFIX,pubmatic.co.jp
+DOMAIN-SUFFIX,segmenthub.com
+DOMAIN-SUFFIX,segmentify.com
+DOMAIN-SUFFIX,sentry-cdn.com
+DOMAIN-SUFFIX,sentry.dev
+DOMAIN-SUFFIX,sigmob.cn
+DOMAIN-SUFFIX,sigmob.com
+DOMAIN-SUFFIX,spotxchange.com
+DOMAIN-SUFFIX,ssacdn.com
+DOMAIN-SUFFIX,supersonicads-a.akamaihd.net
+DOMAIN-SUFFIX,supersonicads.com
+DOMAIN-SUFFIX,upapi.net

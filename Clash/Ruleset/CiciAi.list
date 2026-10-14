@@ -1,3 +1,10 @@
+# 同步快照：2026-10-14；规则总数：115
+# 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/TikTok/TikTok.list
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/tiktok.list
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/trae.list
+# 来源：https://raw.githubusercontent.com/v2fly/domain-list-community/c6adacf29cc4fb05e04651fcf03e00989ef9f797/data/tiktok
+# 来源：https://raw.githubusercontent.com/v2fly/domain-list-community/c6adacf29cc4fb05e04651fcf03e00989ef9f797/data/trae
+
 # DolaAI
 PROCESS-NAME,Cici
 PROCESS-NAME,Cici Helper (Renderer)
@@ -76,3 +83,57 @@ DOMAIN-SUFFIX,ttwstatic.com
 DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,snapkit.com
 DOMAIN-SUFFIX,pangle.io
+
+# 上游增补（已按本仓库分组排除冲突）
+DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN,trae-api-sg.mchost.guru
+DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,tiktokmusic.app
+DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,ttwebview.com
+DOMAIN-KEYWORD,musical.ly
+DOMAIN-KEYWORD,tiktok
+PROCESS-NAME,com.zhiliaoapp.musically
+DOMAIN-SUFFIX,tiktok-minis.com
+DOMAIN-SUFFIX,tiktok-row.net
+DOMAIN-SUFFIX,tiktokcdn-eu.com
+DOMAIN-SUFFIX,tiktokeu-cdn.com
+DOMAIN-SUFFIX,tiktokglobalshopv.com
+DOMAIN-SUFFIX,tiktokminis.us
+DOMAIN-SUFFIX,tiktokrow-cdn.com
+DOMAIN-SUFFIX,tiktokv.eu
+DOMAIN-SUFFIX,tiktokw.eu
+DOMAIN-SUFFIX,tiktokw.us
+DOMAIN-SUFFIX,ttcdn-us.com
+DOMAIN-SUFFIX,ttlivecdn.com
+DOMAIN-SUFFIX,ttoverseaus.net
+DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net
+DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net
+DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net
+DOMAIN-SUFFIX,tiktokv.com.edgekey.net
+DOMAIN-SUFFIX,tiktokv.com.edgesuite.net
+DOMAIN,p16-tiktok-dm-sticker-sign-sg.ibyteimg.com
+DOMAIN,roovza-launches.appsflyersdk.com
+DOMAIN,roovza.inapps.appsflyersdk.com
+DOMAIN,roovza.launches.appsflyersdk.com
+DOMAIN,roovza.skadsdk.appsflyersdk.com
+DOMAIN-SUFFIX,analytics.tiktok.com
+DOMAIN-SUFFIX,doudou.com
+DOMAIN-SUFFIX,marscode.cn
+DOMAIN-SUFFIX,mcbaas.work
+DOMAIN-SUFFIX,mcdemo.show
+DOMAIN-SUFFIX,mcprev.cn
+DOMAIN-SUFFIX,tcwqqdy.guru
+DOMAIN-SUFFIX,trae.cn
+DOMAIN-SUFFIX,trae.guru
+DOMAIN-SUFFIX,yoma.cn
+DOMAIN-SUFFIX,marscode.com.cn
+DOMAIN-SUFFIX,trae.com.cn

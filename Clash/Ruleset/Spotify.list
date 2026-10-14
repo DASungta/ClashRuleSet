@@ -1,5 +1,8 @@
+# 同步快照：2026-10-14；规则总数：39
+# 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/Spotify/Spotify.list
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/spotify.list
+
 # 内容：Spotify
-# 数量：9条
 USER-AGENT,Spotify*
 DOMAIN-KEYWORD,-spotify-
 DOMAIN-KEYWORD,spotify.com
@@ -9,3 +12,35 @@ DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,spotifycdn.net
+
+# 上游增补（已按本仓库分组排除冲突）
+DOMAIN,audio4-ak-spotify-com.akamaized.net
+DOMAIN,cdn-spotify-experiments.conductrics.com
+DOMAIN,heads-ak-spotify-com.akamaized.net
+DOMAIN,spotify.com.edgesuite.net
+DOMAIN,spotify.map.fastly.net
+DOMAIN,spotify.map.fastlylb.net
+DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
+DOMAIN-SUFFIX,byspotify.com
+DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
+DOMAIN-SUFFIX,spotify-com.akamaized.net
+DOMAIN-SUFFIX,spotify-everywhere.com
+DOMAIN-SUFFIX,spotify.app.link
+DOMAIN-SUFFIX,spotify.design
+DOMAIN-SUFFIX,spotifycharts.com
+DOMAIN-SUFFIX,spotifycodes.com
+DOMAIN-SUFFIX,spotifyforbrands.com
+DOMAIN-SUFFIX,spotifyjobs.com
+DOMAIN-SUFFIX,spotifynewsroom.jp
+DOMAIN-SUFFIX,spotilocal.com
+DOMAIN-SUFFIX,tospotify.com
+DOMAIN-KEYWORD,spotify
+PROCESS-NAME,com.spotify.music
+DOMAIN,audio-ak-spotify-com.akamaized.net
+DOMAIN,heads4-ak-spotify-com.akamaized.net
+DOMAIN-SUFFIX,lifeatspotify.com
+DOMAIN-SUFFIX,spotify.link
+DOMAIN-SUFFIX,spotifyforvendors.com
+DOMAIN,adeventtracker.spotify.com
+DOMAIN,adstudio-assets.scdn.co
+DOMAIN,bloodhound.spotify.com

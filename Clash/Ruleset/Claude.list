@@ -1,3 +1,9 @@
+# 同步快照：2026-10-14；规则总数：19
+# 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/Claude/Claude.list
+# 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/Anthropic/Anthropic.list
+# 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/anthropic.list
+# 来源：https://raw.githubusercontent.com/v2fly/domain-list-community/c6adacf29cc4fb05e04651fcf03e00989ef9f797/data/anthropic
+
 # Claude / Anthropic
 
 DOMAIN-KEYWORD,anthropic
@@ -13,3 +19,11 @@ DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonweb.com
+
+# 上游增补（已按本仓库分组排除冲突）
+DOMAIN,cdn.usefathom.com
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claude.dev
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
