@@ -1,9 +1,8 @@
-# 同步快照：2026-10-14；规则总数：38
+# 同步快照：2026-10-14；规则总数：37
 # 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/Netflix/Netflix.list
 # 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/netflix.list
 
 # 内容：Netflix
-USER-AGENT,Argo*
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.apiproxy-
 DOMAIN-KEYWORD,netflixdnstest

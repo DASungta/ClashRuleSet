@@ -1,4 +1,4 @@
-# 同步快照：2026-10-14；规则总数：55
+# 同步快照：2026-10-14；规则总数：54
 # 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/BBC/BBC.list
 # 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/UKMedia/UKMedia.list
 # 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/bbc.list
@@ -7,7 +7,6 @@ DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,co.uk
 
 # BBCiPlayer
-USER-AGENT,BBCiPlayer*
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
 DOMAIN,aod-dash-uk-live.akamaized.net

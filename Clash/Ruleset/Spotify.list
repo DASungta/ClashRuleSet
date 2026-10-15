@@ -1,9 +1,8 @@
-# 同步快照：2026-10-14；规则总数：39
+# 同步快照：2026-10-14；规则总数：38
 # 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/Spotify/Spotify.list
 # 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/spotify.list
 
 # 内容：Spotify
-USER-AGENT,Spotify*
 DOMAIN-KEYWORD,-spotify-
 DOMAIN-KEYWORD,spotify.com
 DOMAIN-SUFFIX,pscdn.co

@@ -1,4 +1,4 @@
-# 同步快照：2026-10-14；规则总数：895
+# 同步快照：2026-10-14；规则总数：893
 # 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/Microsoft/Microsoft.list
 # 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/microsoft.list
 
@@ -92,8 +92,6 @@ DOMAIN-SUFFIX,yammerusercontent.com
 # OneDrive
 PROCESS-NAME,OneDrive
 PROCESS-NAME,OneDriveUpdater
-USER-AGENT,OneDrive*
-USER-AGENT,OneDriveiOSApp*
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,skydrive
 DOMAIN-SUFFIX,livefilestore.com

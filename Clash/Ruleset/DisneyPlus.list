@@ -1,10 +1,8 @@
-# 同步快照：2026-10-14；规则总数：199
+# 同步快照：2026-10-14；规则总数：197
 # 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/Disney/Disney.list
 # 来源：https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/9c8e9f56b6ffadab05bfc933011b2bfc2f4f8288/geo/geosite/disney.list
 
 # 内容：DisneyPlus
-USER-AGENT,Disney*
-USER-AGENT,Disney+*
 DOMAIN,cdn.registerdisney.go.com
 DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,bam.nr-data.net

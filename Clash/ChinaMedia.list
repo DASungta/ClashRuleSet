@@ -1,13 +1,10 @@
-# 同步快照：2026-10-14；规则总数：353
+# 同步快照：2026-10-14；规则总数：345
 # 来源：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/d8363caa2c1e47fb735615316032bed3f475ee57/rule/Clash/ChinaMedia/ChinaMedia.list
 
 # 内容：中国媒体列表
 # 更新：2023-10-23 21:04:56
 
 # Bilibili 哔哩哔哩
-USER-AGENT,Bilibili*
-USER-AGENT,bili*
-USER-AGENT,bili-inter*
 DOMAIN,apiintl.biliapi.net
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN-SUFFIX,acg.tv
@@ -28,8 +25,6 @@ DOMAIN-SUFFIX,im9.com
 DOMAIN-SUFFIX,smtcdns.net
 
 # Iqiyi 爱奇艺
-USER-AGENT,QYPlayer*
-USER-AGENT,iQIYI*
 DOMAIN,intel-cache.m.iqiyi.com
 DOMAIN,intel-cache.video.iqiyi.com
 DOMAIN,intl-rcd.iqiyi.com
@@ -44,14 +39,11 @@ IP-CIDR,103.44.56.0/22,no-resolve
 IP-CIDR,118.26.32.0/23,no-resolve
 IP-CIDR,118.26.120.0/24,no-resolve
 IP-CIDR,223.119.62.224/28,no-resolve
-URL-REGEX,^https?:\/\/int[\w-\.]+iqiyi\.com
 
 # Letv 乐视
 DOMAIN-SUFFIX,api.mob.app.letv.com
 
 # MOO
-USER-AGENT,MOO*
-USER-AGENT,TencentMidasConnect*
 
 # TencentVideo 腾讯视频
 DOMAIN-SUFFIX,v.smtcdns.com

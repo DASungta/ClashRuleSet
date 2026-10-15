@@ -17,6 +17,19 @@ class RuleCompatibilityTest(unittest.TestCase):
                   if line.startswith('ruleset=') and ',[]' in line]
         self.assertEqual(inline, ['GEOIP,CN', 'FINAL'])
 
+    def test_active_rule_files_use_mihomo_supported_types(self):
+        supported = {'DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD',
+                     'IP-CIDR', 'IP-CIDR6', 'PROCESS-NAME'}
+        for line in entries(CLASH / 'kclash.ini'):
+            if not line.startswith('ruleset=') or ',https://' not in line:
+                continue
+            path = CLASH / line.split('/Clash/', 1)[1]
+            rules = entries(path)
+            self.assertTrue(rules, str(path))
+            for rule in rules:
+                with self.subTest(file=path.name, rule=rule):
+                    self.assertIn(rule.split(',', 1)[0], supported)
+
     def test_cached_ai_rules_still_cover_google(self):
         google = set(entries(CLASH / 'Ruleset/Google.list'))
         ai = set(entries(CLASH / 'Ruleset/AiDomain.list'))
