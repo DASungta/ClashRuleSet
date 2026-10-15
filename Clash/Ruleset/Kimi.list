@@ -1,0 +1,2 @@
+# Kimi 直连；使用规则文件，兼容不支持内联域名规则的转换器。
+DOMAIN-SUFFIX,kimi.com

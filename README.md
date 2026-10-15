@@ -59,3 +59,5 @@ Hysteria2 协议本身确实是用 UDP 发包给服务器的（这是底层的�
 分流顺序：X / Twitter 优先于 Grok 和美区AI；YouTube 优先于 Google；专用服务规则优先于通用代理规则。广告拦截与白名单仍优先匹配；X 官方嵌入组件 `syndication.twitter.com` 在应用净化前单独放行。
 
 2026-10-14 已按 V2Fly、MetaCubeX 和 blackmatrix7 的固定快照更新全部启用分组规则，来源、过滤范围及测试结果见[更新记录](docs/rule-refresh-2026-10-14.md)。
+
+2026-10-15 兼容修复：Google 规则保留在 `AiDomain.list` 供缓存旧模板使用；新模板优先匹配独立 Google 分组。Kimi 与 X 放行规则改用文件引用，避免第三方转换器误把内联域名规则当作 `MATCH`。回归检查：`python3 -m unittest discover -s tests -v`。
